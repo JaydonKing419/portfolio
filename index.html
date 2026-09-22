@@ -395,25 +395,25 @@
             </li>
 
             <li class="project-item active" data-filter-item data-category="automation & coding"
-                data-project-title="Finance Workflow"
-                data-project-description="Developed a Finance Workflow that automatically compiles and computes vital company data into Quickbooks every single night. Allowing for quicker and more informed financial decisions to be made."
-                data-project-tech="Programming, JavaScript"
+                data-project-title="Automated Finance Workflow"
+                data-project-description="Designed and implemented an automated nightly finance pipeline that retrieves operational data from Aspire, calculates earned revenue and expenses, and creates or updates the corresponding journal entries in QuickBooks. The system reduces manual reconciliation, improves data consistency, and gives leadership faster access to current financial information."
+                data-project-tech="n8n, JavaScript, REST APIs, Aspire API, QuickBooks Integration, Workflow Orchestration, Financial Data Processing, Error Handling"
                 data-project-link="#"
                 data-project-gallery='[
-                  {"src":"./assets/images/FIN_Flowchart.png","label":"Finance Flowchart","caption":"The entire system follows this generic outline for every nightly execution."},
-                  {"src":"./assets/images/FIN_03.png","label":"Finance 03","caption":"The n8n controller workflow that calls subsequent functions"},
-                  {"src":"./assets/images/FIN_01.png","label":"Finance 01","caption":"Computes earned revenue data from Aspire and updates/creates a Journal Entry in Quickbooks"},
-                  {"src":"./assets/images/FIN_02.png","label":"Finance 02","caption":"Computes expense data from Aspire and updates/creates a Journal Entry in Quickbooks"},
+                  {"src":"./assets/images/FIN_Flowchart.png","label":"System Architecture","caption":"High-level architecture showing the controller, processing workflows, source data, and QuickBooks journal-entry outputs used during each nightly execution."},
+                  {"src":"./assets/images/FIN_03.png","label":"Workflow Controller","caption":"The n8n controller schedules the nightly process, coordinates the revenue and expense workflows, and monitors their execution status."},
+                  {"src":"./assets/images/FIN_01.png","label":"Earned Revenue Processing","caption":"This workflow retrieves Aspire data, calculates earned revenue, and creates or updates the corresponding journal entry in QuickBooks."},
+                  {"src":"./assets/images/FIN_02.png","label":"Expense Processing","caption":"This workflow retrieves expense data from Aspire, calculates the required entries, and creates or updates the corresponding journal entry in QuickBooks."}
                 ]'>
               <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/FIN_Flowchart.png" alt="Finance Flowchart" loading="lazy">
+                  <img src="./assets/images/FIN_Flowchart.png" alt="Automated Finance Workflow" loading="lazy">
                 </figure>
-                <h3 class="project-title">Finance Workflow</h3>
-                <p class="project-category">Automation & coding</p>
+                <h3 class="project-title">Automated Finance Workflow</h3>
+                <p class="project-category">Automation & Systems Integration</p>
               </a>
             </li>
 
@@ -644,25 +644,25 @@
 
             <div class="project-modal-body">
 
-              <!-- Gallery (shown when project has data-project-gallery) -->
-              <div class="project-modal-gallery" data-project-modal-gallery style="display:none;"></div>
-
-              <!-- Single image fallback -->
-              <div class="project-modal-img-wrapper" data-project-modal-img-wrapper>
-                <img src="" alt="" data-project-modal-img>
-              </div>
-
               <div class="project-modal-details">
                 <h4 class="h4">About This Project</h4>
                 <p class="project-modal-description" data-project-modal-description></p>
 
-                <h4 class="h4">Technologies Used</h4>
+                <h4 class="h4">Skills Used</h4>
                 <div class="project-modal-tech" data-project-modal-tech></div>
 
                 <a href="#" class="project-modal-link" data-project-modal-link target="_blank" rel="noopener noreferrer">
                   <ion-icon name="open-outline"></ion-icon>
                   <span>View Project</span>
                 </a>
+              </div>
+
+              <!-- Gallery (shown when project has data-project-gallery) -->
+              <div class="project-modal-gallery" data-project-modal-gallery style="display:none;"></div>
+
+              <!-- Single image fallback -->
+              <div class="project-modal-img-wrapper" data-project-modal-img-wrapper>
+                <img src="" alt="" data-project-modal-img>
               </div>
             </div>
 
